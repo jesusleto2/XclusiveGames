@@ -1,26 +1,14 @@
 import React from "react";
-import { Link,useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "../components/styles/Register.css";
 
 export default function Register() {
   return (
     <div className="register-page">
-      <div
-        className="blur"
-        
-      ></div>
-      <div
-        className="blur"
-        
-      ></div>
-      <div
-        className="blur"
-        
-      ></div>
-      <div
-        className="blur"
-        
-      ></div>
+      <div className="blur"></div>
+      <div className="blur"></div>
+      <div className="blur"></div>
+      <div className="blur"></div>
 
       <div className="register-container">
         <div className="register-form">
@@ -101,7 +89,7 @@ export default function Register() {
           </div>
 
           <p className="login-link">
-            ¿Ya tienes una cuenta? <Link to='/'>Inicia sesión</Link>
+            ¿Ya tienes una cuenta? <Link to="/">Inicia sesión</Link>
           </p>
         </div>
 

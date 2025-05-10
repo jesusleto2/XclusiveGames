@@ -5,10 +5,10 @@ import "../components/styles/Login.css";
 export default function Login() {
   return (
     <div className="login-page">
-      <div className="blur" ></div>
-      <div className="blur" ></div>
-      <div className="blur" ></div>
-      <div className="blur" ></div>
+      <div className="blur"></div>
+      <div className="blur"></div>
+      <div className="blur"></div>
+      <div className="blur"></div>
 
       <div className="login-container">
         <div className="login-form">
@@ -44,11 +44,25 @@ export default function Login() {
           <button className="login-btn">Iniciar sesión</button>
 
           <div className="divider">
-            <div className="divider-title"><h5>Inicia Sesión con</h5></div>
+            <div className="divider-title">
+              <h5>Inicia Sesión con</h5>
+            </div>
             <div className="social-icons">
-              <a href="#"><span className="icons"><img src="../assets/google.png" alt="Google" /></span></a>
-              <a href="#"><span className="icons"><img src="../assets/facebook.png" alt="Facebook" /></span></a>
-              <a href="#"><span className="icons"><img src="../assets/twitter.png" alt="Twitter" /></span></a>
+              <a href="#">
+                <span className="icons">
+                  <img src="../assets/google.png" alt="Google" />
+                </span>
+              </a>
+              <a href="#">
+                <span className="icons">
+                  <img src="../assets/facebook.png" alt="Facebook" />
+                </span>
+              </a>
+              <a href="#">
+                <span className="icons">
+                  <img src="../assets/twitter.png" alt="Twitter" />
+                </span>
+              </a>
             </div>
           </div>
 

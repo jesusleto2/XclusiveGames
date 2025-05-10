@@ -20,8 +20,12 @@ body {
   max-width: 1200px;
   max-height: 1024px;
   border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
-  background: linear-gradient(to bottom, rgba(15,28,43,1)0%, rgba(26,38,52,1)100%);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  background: linear-gradient(
+    to bottom,
+    rgba(15, 28, 43, 1) 0%,
+    rgba(26, 38, 52, 1) 100%
+  );
 }
 
 .login-container {
@@ -32,7 +36,11 @@ body {
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
-  background: linear-gradient(to bottom, rgba(15, 28, 43, 1) 0%, rgba(26, 38, 52, 1) 100%);
+  background: linear-gradient(
+    to bottom,
+    rgba(15, 28, 43, 1) 0%,
+    rgba(26, 38, 52, 1) 100%
+  );
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -56,7 +64,6 @@ body {
   position: relative;
   display: inline-block;
 }
-
 
 .login-form .input-group {
   background-color: #2d2d44;
@@ -492,7 +499,6 @@ body {
   animation-delay: 6s;
 }
 
-
 .login-page:hover .blur {
   filter: blur(80px);
   opacity: 0.6;
@@ -586,13 +592,13 @@ body {
 
   .login-form {
     padding: 20px;
-    order: 2; 
+    order: 2;
     overflow-y: auto;
     flex: 1;
   }
 
   .login-image {
-    order: 1; 
+    order: 1;
     max-height: 30vh;
     flex-shrink: 0;
   }
